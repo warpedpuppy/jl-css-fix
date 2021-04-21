@@ -2,15 +2,7 @@
 
 * {
     X-Content-Type-Options: nosniff;
-    /* margin: auto; */
-}
-
-#navbarNavDropdown {
-    flex-grow: unset;
-}
-
-.row div {
-    margin: 0 auto;
+    margin: auto;
 }
 
 
@@ -127,7 +119,7 @@ body {
 
 .modal.pokemon-height {
     /* margin-bottom: 0; if it hugs the bottom there's
-  	no room for the image */
+  no room for the image */
     margin-top: 50px;
 }
 
@@ -204,64 +196,4 @@ body {
 
 .modals-image {
     margin: 5px 5px 5px 5px;
-}
-
-
-/* Styles for nav version 20210418 */
-
-body {
-    text-align: center;
-}
-
-nav {
-    width: 100%;
-}
-
-.navbar {
-    position: fixed;
-    /* width: 100%; */
-    margin: auto;
-    border: solid black 1px;
-    padding: 5px 15px 5px 15px;
-    z-index: 888;
-}
-
-.navbar-nav {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 5px 0px 5px;
-}
-
-#brand-and-search-bar {
-    display: flex;
-    flex-direction: column;
-}
-
-#navbar-inner-container {
-    justify-content: center;
-    align-items: center;
-}
-
-.creator {
-    margin-top: 2px;
-    margin-bottom: 0px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding: 7px 15px 7px 15px;
-    border: solid black 2px;
-}
-
-.navbar-brand {
-    border: solid black 2px;
-    margin-right: 0px;
-    padding: 5px 10px 5px 10px;
-}
-
-#pokemon-item-list {
-    padding-top: 56px;
-}
-
-@media all and (min-width:992px) {
-    #brand-and-search-bar {
-        flex-direction: row;
-    }
 }
